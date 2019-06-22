@@ -1,0 +1,107 @@
+body {
+	background-color: #1b404a;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+#todo {
+	display: block;
+	margin: 100px auto 0;
+	width: 500px;
+}
+
+h1 {
+	font-weight: 100;
+	text-align: center;
+}
+
+label {
+	border-bottom: 1px solid;
+	display: block;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0 0 20px;
+	padding: 30px 0 10px;
+	text-align: center;
+}
+
+input {
+	background-color: #99bfcb;
+	border-radius: 10px;
+	border: 1px solid #99bfcb;
+	color: black;
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	outline: none;
+	padding: 10px;
+	width: 370px;
+}
+
+button {
+	background: none;
+	border: 0px;
+	color: #999;
+	cursor: pointer;
+	font-size: 15px;
+	outline: none;
+	width: 50px;
+}
+
+button:hover {
+	font-weight: 1000;
+}
+
+.addButton {
+	margin: 10px 0 0;
+	width: 100px;
+}
+
+.addButton:hover {
+	color: skyblue;
+}
+
+h2 {
+	border-bottom: 1px solid;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0px;
+	padding: 30px 0 10px;
+	text-align: center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	border-bottom: 1px solid #eee;
+	list-style:none;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+li * {
+	float: left;
+}
+
+li p {
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+	width: 400px;
+}
+
+.compButton:hover {
+	color: lime;
+}
+
+.delButton:hover {
+	color: red;
+}
+
+.isComplete > p {
+	color: #999;
+	text-decoration: line-through;
+}
